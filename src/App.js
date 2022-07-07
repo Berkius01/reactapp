@@ -8,7 +8,6 @@ function App() {
       <h4 >app component</h4>
       <Navbar/>
       <User/>
-      
     </div>
   );
 }

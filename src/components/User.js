@@ -6,8 +6,7 @@ export default class User extends Component {
       <div>
         <form>
             <input type="text"/>
-            <button>gönder</button>
-            
+            <button>gönder</button>            
         </form>
       </div>
     )
