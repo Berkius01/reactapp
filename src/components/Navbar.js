@@ -1,11 +1,17 @@
 import React from "react";
-
-function Navbar(){
+import ProptTypes from "prop-types";
+function Navbar(props){
     return (
         <div >
           
-          <h3 >user app</h3>
+          <h3 >{props.title}</h3>
         </div>
       );
+}
+Navbar.ProptTypes={
+  title:ProptTypes.string.isRequired
+}
+Navbar.defaultProps={
+  title:"default"
 }
 export default Navbar;
