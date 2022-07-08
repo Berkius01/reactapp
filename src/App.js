@@ -25,6 +25,7 @@ class App extends Component {
     }]
   }
 
+  
   deleteUser = (id) => {
     this.setState({
       users : this.state.users.filter(user => id !== user.id)

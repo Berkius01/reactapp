@@ -53,6 +53,7 @@ export default class Users extends Component {
   //   )
   // }
 }
+
 /*
 Users.proptTypes={
     users : ProptTypes.array.isRequired,

@@ -14,7 +14,6 @@ export default class User extends Component {
     //deleteUser(id);
   }
   render() {
-
     const {name,department,salary} = this.props
     const{isVisible}=this.state
     return (
