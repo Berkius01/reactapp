@@ -18,7 +18,7 @@ export default class Users extends Component {
                                     key = {user.id}
                                     id = {user.id}
                                     name = {user.name}
-                                    salaray = {user.salaray}
+                                    salary = {user.salary}
                                     department = {user.department}
                                     //deleteUser = {deleteUser}
                                 />
