@@ -65,6 +65,9 @@ class AddUser extends Component {
         console.log(newUser);
         const response = await axios.post("http://localhost:3004/user",newUser)
         dispatch({type:"ADD_USER",payload:response.data});
+        
+        alert("kullanıcı eklendi");
+        window.location.reload();
       }
       
   render() {

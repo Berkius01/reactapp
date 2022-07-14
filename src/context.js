@@ -16,6 +16,11 @@ const reducer = (state,action)=>{
         ...state,
         users:[...state.users,action.payload]
       }
+    case "UDATE_USER":
+      return{
+        ...state,
+        users:[...state.users,action.payload]
+      }
     default:
       return state
   }
